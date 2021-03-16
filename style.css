@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: aliceblue;
+  background-image: url('/share/aurore-book/bg-op-75.png');
+  background-repeat: repeat;
+  background-size: contain;
+  color: #080808;
+  font-family: 'CarlitoRegular', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.frise {
+  height: 40px;
+  width: 100%;
+  background-image: url('/share/aurore-book/frise.png');
+  background-repeat: repeat-x;
+  background-size: contain;
+  box-shadow: 0 5px 0 0 rgba(0,0,0,.4);
+}
+
+.content {
+  margin: 40px;
+  padding: 20px;
+  background-color: white;
+  display: inline-block;
+  box-shadow: 5px 5px 0 0 rgba(0,0,0,.4);
+}
+
+@media screen and (max-width: 640px) {
+  .content {
+    margin: 20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .content {
+    margin: 10px;
+  }
+}
+
+.versions span {
+  margin-right: 10px;
+}
+
+.versions a {
+  text-decoration: underline;
+  color: inherit;
+}
+
+h4 {
+  margin: 20px 0;
+  font-weight: 800;
+}
